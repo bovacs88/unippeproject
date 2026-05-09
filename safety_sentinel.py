@@ -15,7 +15,7 @@ from io import BytesIO
 
 # --- CONFIGURATION ---
 # Path to the trained YOLO model weights used by the PPE detector.
-MODEL_PATH = "runs/detect/train9/weights/best.pt"
+MODEL_PATH = "best.pt"
 
 # Supported upload types for the batch-analysis tab.
 IMAGE_EXTENSIONS = {".jpg", ".jpeg", ".png", ".webp"}
